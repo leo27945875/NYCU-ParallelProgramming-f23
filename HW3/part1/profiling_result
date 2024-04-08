@@ -1,0 +1,22 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 71.04      0.83     0.83                             conj_grad (cg_impl.c:66 @ 18d8)
+  5.14      0.89     0.06                             sparse (cg_impl.c:353 @ 1f70)
+  4.28      0.94     0.05                             sparse (cg_impl.c:351 @ 1f8a)
+  3.85      0.99     0.05                             sparse (cg_impl.c:356 @ 1f85)
+  3.42      1.03     0.04                             conj_grad (cg_impl.c:135 @ 1af0)
+  3.42      1.07     0.04                             sparse (cg_impl.c:351 @ 1f5a)
+  1.71      1.09     0.02                             sparse (cg_impl.c:355 @ 1f79)
+  1.28      1.10     0.02                             sparse (cg_impl.c:344 @ 1f41)
+  0.86      1.11     0.01                             conj_grad (cg_impl.c:64 @ 18c0)
+  0.86      1.12     0.01                             conj_grad (cg_impl.c:97 @ 1990)
+  0.86      1.13     0.01                             conj_grad (cg_impl.c:107 @ 1a20)
+  0.86      1.14     0.01                             sparse (cg_impl.c:308 @ 1de2)
+  0.86      1.15     0.01                             sparse (cg_impl.c:360 @ 1f92)
+  0.43      1.16     0.01                             conj_grad (cg_impl.c:68 @ 18f3)
+  0.43      1.16     0.01                             conj_grad (cg_impl.c:61 @ 18f9)
+  0.43      1.17     0.01                             sparse (cg_impl.c:346 @ 1f52)
+  0.43      1.17     0.01                             sparse (cg_impl.c:359 @ 1f97)
